@@ -51,7 +51,10 @@ measurement errors.
 
 ```{r}
 #| label: find-missing-values
+blk_ft <- read.csv("data_raw/BlackfootFish.csv")
 
+blk_ft <- blk_ft %>% 
+  
 ```
 
 
